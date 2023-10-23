@@ -1,0 +1,313 @@
+
+*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #eaecf0
+}
+body {
+    margin: 0;
+    line-height: inherit;
+    background-color: rgba(215, 212, 212, 0.4);
+}
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Next,sans-serif;
+    font-feature-settings: normal;
+    font-variation-settings: normal
+}
+nav {  
+    position: sticky;
+    position: fixed;
+    top: 0;
+    height: 10px;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    margin-right:3rem;
+    margin-top: 3px;
+    padding: 0;
+    
+}
+.nav-item  {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 1.5rem;
+    
+  }
+
+
+img{
+    width: 210px;
+    vertical-align: middle;  
+}
+.nav-item:last-child{
+    margin-right:7rem;
+}
+.cont{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(188, 180, 180, 0.724); 
+
+}
+.video-container {
+    display: flex;
+    justify-items: center;  
+   
+}
+
+ video {
+    display: flex;
+    height:39rem;
+    width: 78.9rem;
+   object-fit:cover;   
+}
+.caption {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+    font-size: xxx-large;
+    width: min-content;
+    color: white;
+    font-weight: bold;
+    margin-right: 23rem;
+    margin-top: 4rem;
+    line-height: 7rem;
+  }
+ .b1{
+    margin-top: -8rem;
+    height: 5rem;
+    width: 30rem;
+    color:white;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: xxx-large;
+   background-color: rgb(85, 240, 189);
+ }
+ h1{
+    text-align: center;
+ }
+ nav.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  .boot{
+    color: rgb(59, 59, 189);
+  }
+  .bx{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .bx4{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .sq{
+    display:inline-flex;
+    justify-content: center;
+  }
+  .sq1{
+    display:inline-flex;
+    justify-content: space-between;
+   
+  }
+  .bx1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    height: 15rem;
+    border: solid 1rem  rgb(146, 220, 146);
+    border-left: rgb(155, 223, 155);
+    border-bottom: none;
+    border-top: none;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .txt{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .t1{
+    color: rgb(21, 232, 161);
+  }
+  .t2{
+    color: rgb(84, 82, 82);
+    margin-top: 1px;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .t3{
+    color: rgb(15, 232, 214);
+  }
+  .icon{
+    margin-top: 2rem;
+    display: inline-flex;
+    font-size: smaller;
+    font-weight: 400;  
+  }
+  .icon1{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: -.5rem;
+    font-size: smaller;
+    font-weight: 400;  
+  }
+.bt2{
+    align-self: center;
+    font-size: large;
+    color: rgb(30, 176, 181);
+    height: 2rem;
+    width: 6rem;
+    background-color: transparent;
+    border: rgb(30, 192, 189) solid;
+    border-width: 2px;
+    border-radius: 2rem;
+    margin-right: 8rem;
+  
+}
+  .loc{
+    width: 1rem;
+    margin-right: 1rem;
+    margin-left: .2rem;
+  }
+  .bx2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    height: 15rem;
+    border: solid 1rem  rgb(48, 244, 224);
+    border-left: rgb(155, 223, 155);
+    border-bottom: none;
+    border-top: none;
+    border-radius: 1rem;
+    background-color: white;
+    margin-right: -1rem;
+  }
+  .bx3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    height: 15rem;
+    border: solid 1rem  rgb(28, 199, 173);
+    border-left: rgb(155, 223, 155);
+    border-bottom: none;
+    border-top: none;
+    border-radius: 1rem;
+    background-color: white;
+    margin-right: -1rem;
+
+  }
+  .b2{
+    font-size: large;
+    justify-content: space-evenly;
+    align-self: center;
+    color: blue;
+    width: 15rem;
+    height:2.5rem;
+    background-color: transparent;
+    border: rgb(70, 73, 216) solid;
+    border-width: 3px;
+    border-radius: 2rem;
+  }
+  .bx5{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: rgb(247, 247, 250);
+    box-shadow:  5px 5px 5px rgba(188, 180, 180, 0.724); 
+    margin-right: 1rem;
+   line-height: 1rem;
+   }
+ .bx6{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15rem;
+        height: 20rem;
+        border-radius: 1rem;
+        background-color: white;
+        box-shadow:  5px 5px 5px rgba(188, 180, 180, 0.724); 
+        line-height: 1rem;
+       }
+.bx7{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 15rem;
+            height: 20rem;
+            border-radius: 1rem;
+            background-color: white;
+            box-shadow: 5px 5px 5px rgba(188, 180, 180, 0.724); 
+            line-height: 1rem;
+           }
+.bx8{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 15rem;
+            height: 20rem;
+            border-radius: 1rem;
+            background-color: white;
+            box-shadow:  5px 5px 5px rgba(188, 180, 180, 0.724); 
+            line-height: 1rem;
+           }
+
+.icon2{
+    display:flex;
+    background: #1ae0c6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+    align-self: center;
+}
+
+.t3{
+            font-size: larger;
+            font-weight:bolder;
+            align-self: center;
+        }     
+.t4{
+color:#671577; 
+font-size: xx-large; 
+font-weight: bold;
+align-self: center;
+
+     }   
+     
+.txt1{
+       
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+      }
+.t5{
+  
+    display: flex;
+    align-self: center;
+}
